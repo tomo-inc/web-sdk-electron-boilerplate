@@ -54,6 +54,12 @@ mainWindow.webContents.setWindowOpenHandler((data) => {
 ```
 
 ## Screenshots
-<img src="screenshots/open-connect.gif" width="100%" />
-<img src="screenshots/loginTG.gif" width="100%" />
-<img src="screenshots/signTx.gif" width="100%" />
+
+### Open Connect
+![Open Connect](screenshots/open-connect.gif)
+
+### Login TG
+![Login TG](screenshots/loginTG.gif)
+
+### Sign Transaction
+![Sign Transaction](screenshots/signTx.gif)

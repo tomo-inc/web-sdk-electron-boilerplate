@@ -18,8 +18,8 @@ importers:
         specifier: ^1.98.0
         version: 1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@tomo-inc/tomo-web-sdk':
-        specifier: 1.0.11-beta.0
-        version: 1.0.11-beta.0(khitxwyoqpsr6y2zjhnvitnwlu)
+        specifier: 1.0.11
+        version: 1.0.11(khitxwyoqpsr6y2zjhnvitnwlu)
       electron-debug:
         specifier: ^4.1.0
         version: 4.1.0
@@ -3690,8 +3690,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@tomo-inc/social-wallet-sdk@1.1.11-beta.0':
-    resolution: {integrity: sha512-BRu0rLd4dr72U/BvtlNz99Qyrj8CigLr/Va4q6Lz0oCXqmEZW8ENfWGRh8ZGPI9N7vpKzccd26XO3GBCDT3lUA==}
+  '@tomo-inc/social-wallet-sdk@1.1.11':
+    resolution: {integrity: sha512-ATblmcs9iJ8bKq9pjYJVltUt1rF5poydhunjmgxjeQ59fDGVypAMDxiXduC9BIwam3nmvjTEe4E44TsOj8t+eg==}
 
   '@tomo-inc/social-wallet-sdk@1.1.7':
     resolution: {integrity: sha512-I8/vTexYumZFmBg6CLYnpROdmp2sJi0WNkqEemDVIpZwkriU90fTkNS5PhxoH5SgJk8mTqF8n7Zv7q4hjkX1HQ==}
@@ -3721,8 +3721,8 @@ packages:
       react: ^18
       react-dom: ^18
 
-  '@tomo-inc/tomo-web-sdk@1.0.11-beta.0':
-    resolution: {integrity: sha512-sHy/0DRQtYXAOU8Y+EKBrBNkEwlUeBfAKeUXFMer0xn1Bp355w0byBQNQ8SQUvVEuFVCM2yew+kzeiN8jJEjjA==}
+  '@tomo-inc/tomo-web-sdk@1.0.11':
+    resolution: {integrity: sha512-2YwikxMwTY5S/gOW2J321IIvMgD/89ALsd0P0Lp5rI9dxEbhg7jVTsuRSLWKc959WfRDOSFZjvnWXzeWnlHzlw==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -17476,7 +17476,7 @@ snapshots:
       '@types/react': 19.1.2
       '@types/react-dom': 19.1.2(@types/react@19.1.2)
 
-  '@tomo-inc/social-wallet-sdk@1.1.11-beta.0(@wallet-standard/core@1.1.1)(bufferutil@4.0.9)(encoding@0.1.13)(expo@52.0.46(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(bufferutil@4.0.9)(encoding@0.1.13)(graphql@16.10.0)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(react@19.1.0)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.22.4)':
+  '@tomo-inc/social-wallet-sdk@1.1.11(@wallet-standard/core@1.1.1)(bufferutil@4.0.9)(encoding@0.1.13)(expo@52.0.46(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(bufferutil@4.0.9)(encoding@0.1.13)(graphql@16.10.0)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(react@19.1.0)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.22.4)':
     dependencies:
       '@aptos-labs/ts-sdk': 1.38.0(axios@1.8.4)(got@11.8.6)
       '@aptos-labs/wallet-standard': 0.3.1(@aptos-labs/ts-sdk@1.38.0(axios@1.8.4)(got@11.8.6))(@wallet-standard/core@1.1.1)
@@ -17608,7 +17608,7 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
-  '@tomo-inc/tomo-web-sdk@1.0.11-beta.0(khitxwyoqpsr6y2zjhnvitnwlu)':
+  '@tomo-inc/tomo-web-sdk@1.0.11(khitxwyoqpsr6y2zjhnvitnwlu)':
     dependencies:
       '@aptos-labs/ts-sdk': 1.38.0(axios@1.8.4)(got@11.8.6)
       '@aptos-labs/wallet-adapter-react': 4.1.5(@aptos-labs/ts-sdk@1.38.0(axios@1.8.4)(got@11.8.6))(@mizuwallet-sdk/core@1.4.0(@aptos-labs/ts-sdk@1.38.0(axios@1.8.4)(got@11.8.6))(@mizuwallet-sdk/protocol@0.0.6)(graphql-request@7.1.2(graphql@16.10.0)))(@mizuwallet-sdk/protocol@0.0.6)(@telegram-apps/bridge@1.9.2)(@types/react@19.1.2)(@wallet-standard/core@1.1.1)(aptos@1.21.0)(axios@1.8.4)(got@11.8.6)(react@19.1.0)
@@ -17625,7 +17625,7 @@ snapshots:
       '@solana/web3.js': 1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@suiet/wallet-kit': 0.3.4(@mysten/sui@1.27.0(typescript@5.8.3))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(react@19.1.0)(typescript@5.8.3)
       '@tanstack/react-query': 5.74.3(react@19.1.0)
-      '@tomo-inc/social-wallet-sdk': 1.1.11-beta.0(@wallet-standard/core@1.1.1)(bufferutil@4.0.9)(encoding@0.1.13)(expo@52.0.46(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(bufferutil@4.0.9)(encoding@0.1.13)(graphql@16.10.0)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(react@19.1.0)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.22.4)
+      '@tomo-inc/social-wallet-sdk': 1.1.11(@wallet-standard/core@1.1.1)(bufferutil@4.0.9)(encoding@0.1.13)(expo@52.0.46(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(bufferutil@4.0.9)(encoding@0.1.13)(graphql@16.10.0)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(react@19.1.0)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-native@0.79.0(@babel/core@7.26.10)(@types/react@19.1.2)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.22.4)
       '@tomo-inc/tomo-evm-kit': 0.0.25(wqlx5lcoomclj2jv6qzpsowgie)
       '@tomo-inc/tomo-wallet-provider': 1.1.14(@bitcoinerlab/secp256k1@1.2.0)(@cosmjs/stargate@0.32.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(@keplr-wallet/types@0.12.219(starknet@6.24.1(encoding@0.1.13)))(@keystonehq/animated-qr@0.10.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@keystonehq/keystone-sdk@0.9.0)(@keystonehq/sdk@0.19.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@scure/bip32@1.6.2)(bitcoinjs-lib@6.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tomo-wallet/uikit': 0.0.15(@babel/runtime@7.27.0)(@types/react@19.1.2)(core-js-pure@3.41.0)(prop-types@15.8.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
