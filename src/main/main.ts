@@ -106,20 +106,22 @@ const createWindow = async () => {
   //   shell.openExternal(edata.url);
   //   return { action: 'deny' };
   // });
+
+  const parseWindowFeatures = (features: string): Record<string, string | number | boolean> => {
+    return features.split(',').reduce((acc, feature) => {
+      const [key, value] = feature.split('=');
+      acc[key.trim()] = isNaN(Number(value)) ? (value === 'yes' ? true : value === 'no' ? false : value) : Number(value);
+      return acc;
+    }, {} as Record<string, string | number | boolean>);
+  };
+
   mainWindow.webContents.setWindowOpenHandler((data) => {
-    // Or allow opening in a new window with custom options
+    console.log('data', data);
+   
     return { 
       action: 'allow',
-      overrideBrowserWindowOptions: {
-        // Customize the new window
-        width: 400,
-        height: 600,
-        webPreferences: {
-          // Your web preferences
-        }
-      }
-    }
-  })
+    };
+  });
 
   // Remove this if your app does not use auto updates
   // eslint-disable-next-line
