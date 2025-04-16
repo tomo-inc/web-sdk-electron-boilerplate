@@ -138,9 +138,13 @@ function Hello() {
             const transaction = await createSolTx(from, to, amount);
 
             if (!transaction) throw new Error("Failed to create transaction");
-
-            const res = await solanaProvider.signTransaction(transaction);
-            alert(JSON.stringify(res))
+            try {
+              const res = await solanaProvider.signTransaction(transaction);
+              alert(JSON.stringify(res))
+            } catch (e) {
+              alert(JSON.stringify(e))
+            }
+            
           }}>
             sign tx
           </button> : null
